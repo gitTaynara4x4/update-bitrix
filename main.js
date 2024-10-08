@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'; // Importa a biblioteca node-fetch para fazer requisições HTTP
 
-const ids = [/* sua lista deIDs */]; // Coloque aqui sua lista de IDs que você quer atualizar
+const ids = [/* sua lista de IDs */]; // Coloque aqui sua lista de IDs que você quer atualizar
 const apiUrl = "https://marketingsolucoes.bitrix24.com.br/rest/35002/{CODIGO_BITRIX}"; // URL da API do Bitrix
 const batchSize = 200; // Define o tamanho do lote, ou seja, quantas requisições serão feitas de uma vez
 const delayBetweenBatches = 15000; // Atraso em milissegundos entre cada lote de requisições
