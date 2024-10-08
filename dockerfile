@@ -14,4 +14,4 @@ RUN npm install
 COPY . .
 
 # Comando para executar o script
-CMD ["node", "updateDeals.js"]
+CMD ["node", "main.js"]
