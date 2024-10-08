@@ -1,0 +1,12 @@
+{
+  "name": "bitrix-update-script",
+  "version": "1.0.0",
+  "description": "Script em Node.js para atualizar em massa negócios no Bitrix24 via API.",
+  "main": "updateDeals.js",
+  "scripts": {
+    "start": "node updateDeals.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.0"
+  }
+}
